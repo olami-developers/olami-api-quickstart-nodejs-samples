@@ -12,11 +12,11 @@ npm install
 
 ## Run the application:
 
-> 1. Replace **your_php_bin** to your PHP binary path.
+> 1. Replace **your_node_bin** to your PHP binary path.
 > 2. Replace **api_url, your_app_key, your_app_secret, your_text_input** in accordance to your needs and your own data.
 
 ```
-node QuickstartTest.js api_url your_app_key your_app_secret your_text_input
+your_node_bin QuickstartTest.js api_url your_app_key your_app_secret your_text_input
 ```
 
 - For example: (Simplified Chinese Request with the text "我爱欧拉蜜")

@@ -14,14 +14,14 @@ The audio file is required in WAV file format PCM, **mono** recording with a sam
 npm install
 ```
 
-## Run in bash:
+## Run the application:
 
-> 1. Replace **your_php_bin** to your PHP binary path.
+> 1. Replace **your_node_bin** to your PHP binary path.
 > 2. Replace **api_url, your_app_key, your_app_secret, your_audio_file** in accordance to your needs and your own data.
 > 3. Replace **compress_flag** to `1` if the audio file is a Speex audio, otherwise `0`
 
 ```
-node QuickstartTest.js api_url your_app_key your_app_secret your_audio_file compress_flag
+your_node_bin QuickstartTest.js api_url your_app_key your_app_secret your_audio_file compress_flag
 ```
 
 - For example: (Simplified Chinese Request with the sample.wav file)
