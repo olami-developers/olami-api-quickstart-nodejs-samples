@@ -108,6 +108,7 @@ SpeechApiSample.prototype.sendAudioFile = function (apiName, seqValue,
 SpeechApiSample.prototype.getRecognitionResult = function (apiName, seqValue) {
 	var _this = this;
 	var url = this.getBaseQueryUrl(apiName, seqValue);
+	url += '&stop=1';
 	// Request speech recognition service by HTTP GET
 	request.get({
 		url: url,
