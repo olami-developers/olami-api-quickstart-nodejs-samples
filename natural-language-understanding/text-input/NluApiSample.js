@@ -43,7 +43,7 @@ NluApiSample.prototype.setLocalization = function (apiBaseURL) {
  */
 NluApiSample.prototype.getRecognitionResult = function (apiName, input) {
 	var dateTime = Date.now();
-	timestamp  = Math.floor(dateTime / 1000);
+	timestamp  = dateTime;
 
 	var signMsg = this.preSignMsg(apiName, timestamp);
 	var url = this.preRequestUrl(input, apiName, signMsg, timestamp);

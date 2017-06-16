@@ -153,7 +153,7 @@ SpeechApiSample.prototype.getRecognitionResult = function (apiName, seqValue) {
  */
 SpeechApiSample.prototype.getBaseQueryUrl = function (apiName, seqValue) {
 	var dateTime = Date.now();
-	timestamp  = Math.floor(dateTime / 1000);
+	timestamp  = dateTime;
 
 	var sign = '';
 	sign += this.appSecret;
