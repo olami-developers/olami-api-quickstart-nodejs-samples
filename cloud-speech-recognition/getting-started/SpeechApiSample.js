@@ -169,8 +169,8 @@ SpeechApiSample.prototype.getBaseQueryUrl = function (apiName, seqValue) {
 
 	// Assemble all the HTTP parameters you want to send
 	var url = '';
-	url += this.apiBaseUrl +'?';
-	url += 'appkey='+ this.appKey;
+	url += this.apiBaseUrl +'?_from=nodejs';
+	url += '&appkey='+ this.appKey;
 	url += '&api=';
 	url += apiName;
 	url += '&timestamp='+ timestamp;
