@@ -89,8 +89,8 @@ NluApiSample.prototype.preSignMsg = function(apiName, timestamp) {
 // Request NLU service by HTTP POST
 NluApiSample.prototype.preRequestUrl = function (input, apiName, signMsg, timestamp) {
 	var url = '';
-	url += this.apiBaseUrl +'?';
-	url += 'appkey='+ this.appKey;
+	url += this.apiBaseUrl +'?_from=nodejs';
+	url += '&appkey='+ this.appKey;
 	url += '&api=';
 	url += apiName;
 	url += '&timestamp='+ timestamp;
